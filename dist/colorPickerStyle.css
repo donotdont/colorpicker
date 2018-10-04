@@ -10,7 +10,7 @@
     -webkit-transition: visibility 0s ease .218s,opacity .218s linear;
     transition: visibility 0s ease .218s,opacity .218s linear;
     visibility: hidden;
-    width: 136px;
+    /*width: 136px;*/
     z-index: 4011;
 }
 
@@ -21,6 +21,10 @@
 
 .color-palette div.transparent-color {
     border-color: rgb(224,224,224);
+}
+
+.color-picker, .color-palette-display{
+    display: inline-block;
 }
 
 .color-palette-display .selected-color, .color-palette-display .color-palette-display-text{

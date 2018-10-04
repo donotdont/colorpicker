@@ -48,7 +48,7 @@ angular.module('tb-color-picker', [])
             }
         };
 
-        function colorPickerDirectiveController($scope) {
+        function colorPickerDirectiveController() {
             var vm = this;
             
             vm.changeColor = function (option) {				
